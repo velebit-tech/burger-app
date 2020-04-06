@@ -84,7 +84,7 @@ class BurgerBuilder extends Component {
   }
 
   purchaseConfirmHandler = () => {
-    alert('Your order have been confirmed! (TODO)');
+    alert('Ne radi nam dostava, Marki je slupao kedilaka jebiga (TODO)');
   }
 
   render() {
