@@ -1,11 +1,12 @@
 import React from 'react';
 
 import Auxiliary from '../../hoc/Auxiliary';
+import Toolbar from '../Navigation/Toolbar/Toolbar';
 import classes from './Layout.css';
 
 const layout = props => (
   <Auxiliary>
-    <div>Toolbar, Navigation, ...</div>
+    <Toolbar />
     <main className={classes.MainContent}>
       {props.children}
     </main>
